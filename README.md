@@ -20,8 +20,8 @@ I chose to zoom in on donors from New York, New York. The advantage to localizin
 
 ##### Localizing USA dataset to New York City
 + Total Amount Received over a 5 year period: $8,015,266.39
-+ 76,257 donations Donations Received from NYC:  <--------------------------- this is a weird number look into this
-+ 26,009 Donors <--------------------------- this is a weird number look into this
++ 76,257 donations Donations Received from NYC
++ 26,009 Donors
 + Most Recent Date Donation Received: 2018-05-09
 + Earliest Date Donation Received: 2012-10-27
 + The most common donor donated 2,152 times
@@ -47,9 +47,12 @@ In this section I applied the SurPRISE library to compare each donors contributi
 
 I used GridSearchCV on Matrix Factorization techniques to calculate error rates. It turns out SVD++ has the lowest Mean Absolute error rate. I've visualized this in the boxplot graph below: 
 
-![]()
+![](https://github.com/Chris-Manna/charity_recommender/blob/master/Boxplot%20MAE.png)
 
 ##### The intution behind using a collaborative filtering recommender system on an implicit dataset
+![](http://datameetsmedia.com/wp-content/uploads/2018/05/2ebah6c-1.png)
+http://datameetsmedia.com/an-overview-of-recommendation-systems/
+
 When donor A and donor B have the exact same donation history, we can say that the distance between these two matrices is essentially 0. If B suddenly develops a preference for something new, A may also develop a preference for that new item as well. When B likes something new we are using the similarity matrix comparison to guess that A will also like the new item. Through a process called collaborative filtering, we can begin to project a possible pattern of donations in the future for donors that have not yet donated by comparing their history to another user's history. With collaborative filtering recommender systems A's preference matrix may match many other user preference matrices and we will want to offer A an array of options, called recommendations. 
 
 By comparing the distance between donors A's donation history to donor B's donation history, we can fill the donor A's donation history in with B's donation history. Using B's filled out donor history as a reference for possible projects subsequent donations may be on a list of recommendations.  For example, if A and B both choose to eat pizza and ride a bike, then chances are if B likes sports drinks that A will also like sports drinks, so why not recommend A sports drinks as well? 
