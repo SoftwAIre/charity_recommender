@@ -29,7 +29,7 @@ New York City:
 + Max Single Donation: $19,588.38
 + Min Single Donation: $0.21
 
-![](https://github.com/Chris-Manna/charity_recommender/blob/master/Hist%20of%20Donation%20Amount.png)
+![](https://github.com/Chris-Manna/charity_recommender/blob/master/donors%20hist.png)
 
 ### Measuring Donor Enthusiasm for Projects
 In this section we translate donation quantity and frequency from donors to projects into a enthusiam/satisfaction metric looking at the donation history of the whole dataset. The question we want to answer is: how enthusiastic is a single donor about a single project? The challenge in answering this question lies in the way one may want to interpret enthusiasm for a given project. In this DataSet donation patterns vary on a logarithmic scale. 
