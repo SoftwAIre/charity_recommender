@@ -45,10 +45,6 @@ I interpreted each donor's choice to donate any amount and any number of times t
 ### Comparing Similarity Matrices on an Implicit Dataset
 In this section I applied the SurPRISE library to compare each donors contribution history. The SurPRISE library uses the DonorID in the first column, ProjectID in the second column, and the implicit donation history in third column. By matching the Donor ID's and Project ID's and the donation history, SurPRISE creates similarity matrix full of binary values. With this matrix we can calculate their given donation history as a "distance" from another user's donation history. 
 
-I used GridSearchCV on Matrix Factorization techniques to calculate error rates. It turns out SVD++ has the lowest Mean Absolute error rate. I've visualized this in the boxplot graph below: 
-
-![](https://github.com/Chris-Manna/charity_recommender/blob/master/Boxplot%20MAE.png)
-
 ##### The intution behind using a collaborative filtering recommender system on an implicit dataset
 ![](http://datameetsmedia.com/wp-content/uploads/2018/05/2ebah6c-1.png)
 http://datameetsmedia.com/an-overview-of-recommendation-systems/
@@ -63,6 +59,10 @@ Donor preferences do not always match exactly and so instead we want to use thei
 In this project we used five algorithms to test which recommendations would best suit the donor based on implicit donation history in comparison to other donors. We use five algorithms using the Grid Search Cross Validation (GridSearchCV) to compare Mean Absolute Error and Root Mean Squared Error between which yields the best error metrics and time to compute. 
 
 Using the three algorithms with best results are listed here: Singular Value Decomposition for implicit feedback (SVD++), Singular Value Decomposition (SVD), and Non-Negative Matrix Factorization (NNMF). 
+
+I used GridSearchCV on Matrix Factorization techniques to calculate error rates. It turns out SVD++ has the lowest Mean Absolute error rate. I've visualized this in the boxplot graph below: 
+
+![](https://github.com/Chris-Manna/charity_recommender/blob/master/Boxplot%20MAE.png)
 
 We did not use the CoClustering or Normal Predictor. Because the matrix was so sparse, and the CoClustering Algorithm works best by comparing a more heavily populated matrix, the resulting recommendation error metrics didn't make sense. Because the implicit dataset is not normally distributed, the NormalPredictor algo didn't work well here either.
 
