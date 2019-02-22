@@ -35,7 +35,7 @@ I limited the graph on the X axis to $1000 so that you can see the amount the di
 ### Measuring Donor Enthusiasm for Projects
 In this section I show donation amount from donors on a logarithmic scale. See graph below:
 
-![]()
+![](https://github.com/Chris-Manna/charity_recommender/blob/master/log%20donation.png)
 In the future I will need to substitute the logarithmic values for dollar values. 
 
 For Frequency: The dataset contains many individual donors that donated one time, while it also contains donors that have donated once per month over a multi-year span. Many individual donors donated $1 while others donated in the tens of thousands, and in some instances, millions of dollars over time. While scaling these values in each dimension would be possible, the data collected may likely have skewed the results towards those that are already being donated to frequently and with higher donation quantity. 
