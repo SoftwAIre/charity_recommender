@@ -19,9 +19,15 @@ Trimming 4.6 million donations to 75 thousand
 ![]()
 
 And after cleaning… and localizing the dataset to New York City
-+ 75,676 individual Donations
-+ 25,876 individual Donors
-+ 48,296 Projects 
+New York City:
++ Total Amount Received over a 5 year period: $8,015,266.39
++ Total Number of Donations Received from NYC: 76,257 donations
++ Unique Donors: 26,009
++ Most Recent Date Donation Received: 2018-05-09
++ Earliest Date Donation Received: 2012-10-27
++ The most common donor donated 2,152 times
++ Max Single Donation: $19,588.38
++ Min Single Donation: $0.21
 
 ![](https://github.com/Chris-Manna/charity_recommender/blob/master/Hist%20of%20Donation%20Amount.png)
 
