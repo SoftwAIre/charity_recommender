@@ -28,7 +28,7 @@ I chose to zoom in on donors from New York, New York. The advantage to localizin
 + Max Single Donation: $19,588.38
 + Min Single Donation: $0.21
 
-![](https://github.com/Chris-Manna/charity_recommender/blob/master/donors%20hist.png)
+![]()
 
 I limited the graph on the X axis to $1000 so that you can see the amount the distribution. It is positively skewed past $1,000,000.
 
