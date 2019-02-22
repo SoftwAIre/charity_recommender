@@ -16,7 +16,7 @@ Trimming 4.6 million donations to 75 thousand
 + 4.6 million individual donors
 + 850,000 projects in total
 
-![](https://github.com/Chris-Manna/charity_recommender/blob/master/NYC%20Donor%20Amount%20in%20%2425%20increments.png)
+![]()
 
 And after cleaning… and localizing the dataset to New York City
 + 75,676 individual Donations
