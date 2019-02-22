@@ -21,6 +21,8 @@ And after cleaning… and localizing the dataset to New York City
 + 25,876 individual Donors
 + 48,296 Projects 
 
+![](https://github.com/Botafogo1894/Project3/blob/master/basic%205%20models.png)
+
 ### Measuring Donor Enthusiasm for Projects
 In this section we translate donation quantity and frequency from donors to projects into a enthusiam/satisfaction metric looking at the donation history of the whole dataset. The question we want to answer is: how enthusiastic is a single donor about a single project? The challenge in answering this question lies in the way one may want to interpret enthusiasm for a given project. In this DataSet donation patterns vary on a logarithmic scale. 
 
@@ -55,3 +57,4 @@ According to the Error metrics SVD++ yielded the best scores for error metrics r
 - Incorporating Meta Data from Donors and Projects to create a hybrid filter
 - Compare Content Filter Recommender System against a Collaborative Recommender System that has more meta data
 - Include a Time Series to see where donations are coming from, more expansive overview and EDA
+
