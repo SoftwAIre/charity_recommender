@@ -1,7 +1,7 @@
 # charity_recommender
 
 ### Business Description
-Recommend charity projects through email campaigns to donors and convert them into multi time donors. 
+Recommend charity projects to people that have donated one time through email campaigns. 
 Founded in 2000 by a Bronx history teacher, DonorsChoose.org has raised $685 million for America's classrooms. Teachers at three-quarters of all the public schools in the U.S. have come to DonorsChoose.org to request what their students need, making DonorsChoose.org the leading platform for supporting public education.
 
 To date, 3 million people and partners have funded 1.1 million DonorsChoose.org projects. But teachers still spend more than a billion dollars of their own money on classroom materials. To get students what they need to learn, the team at DonorsChoose.org needs to be able to connect donors with the projects that most inspire them.
