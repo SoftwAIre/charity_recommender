@@ -64,11 +64,12 @@ By comparing the distance between donors A's donation history to donor B's donat
 ##### In the real world
 Donor preferences do not always match exactly and so instead we want to use their similarity distances. By applying the SurPRISE library we don't have to do all the Matrix Factorization mathematics that goes into generating the distances between donor preference matrices and instead return a list of projects they may choose to donate to. 
  
-In this project we used five algorithms to test which recommendations would best suit the donor based on implicit donation history in comparison to other donors. We use five algorithms using the Grid Search Cross Validation (GridSearchCV) to compare Mean Absolute Error and Root Mean Squared Error between which yields the best error metrics and time to compute. 
+In this project, five algorithms were used to test which recommendations would best suit the donor based on implicit donation history comparing to other donors. 
+These five algorithms use the Grid Search Cross Validation (GridSearchCV) to compare Mean Absolute Error and Root Mean Squared Error between which yields the best error metrics and time to compute recommendations. 
 
 Using the three algorithms with best results are listed here: Singular Value Decomposition for implicit feedback (SVD++), Singular Value Decomposition (SVD), and Non-Negative Matrix Factorization (NNMF). 
 
-I used GridSearchCV on Matrix Factorization techniques to calculate error rates. It turns out SVD++ has the lowest Mean Absolute error rate. I've visualized this in the boxplot graph below: 
+Used GridSearchCV on Matrix Factorization techniques to calculate error rates. It turns out SVD++ has the lowest Mean Absolute error rate. I've visualized this in the boxplot graph below: 
 
 ![](https://github.com/Chris-Manna/charity_recommender/blob/master/Boxplot%20MAE.png)
 
