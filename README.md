@@ -61,7 +61,11 @@ In this section I applied the SurPRISE library to compare each donors contributi
 ![](http://datameetsmedia.com/wp-content/uploads/2018/05/2ebah6c-1.png)
 http://datameetsmedia.com/an-overview-of-recommendation-systems/
 
-When donor A and donor B have the exact same donation history, we can say that the distance between these two matrices is essentially 0. If B suddenly develops a preference for something new, A may also develop a preference for that new item as well. When B likes something new we are using the similarity matrix comparison to guess that A will also like the new item. Through a process called collaborative filtering, we can begin to project a possible pattern of donations in the future for donors that have not yet donated by comparing their history to another user's history. With collaborative filtering recommender systems A's preference matrix may match many other user preference matrices and we will want to offer A an array of options, called recommendations. 
+When donor A and donor B have the exact same donation history, we can say that the distance between these two matrices is essentially 0. 
+If B suddenly develops a preference for something new, A may also develop a preference for that new item as well. 
+When B likes something new we are using the similarity matrix comparison to guess that A will also like the new item. 
+Through a process called collaborative filtering, we can begin to project a possible pattern of donations in the future for donors that have not yet donated by comparing their history to another user's history. 
+With collaborative filtering recommender systems A's preference matrix may match many other user preference matrices and we will want to offer A an array of options, called recommendations. 
 
 By comparing the distance between donors A's donation history to donor B's donation history, we can fill the donor A's donation history in with B's donation history. Using B's filled out donor history as a reference for possible projects subsequent donations may be on a list of recommendations.  For example, if A and B both choose to eat pizza and ride a bike, then chances are if B likes sports drinks that A will also like sports drinks, so why not recommend A sports drinks as well? 
 
