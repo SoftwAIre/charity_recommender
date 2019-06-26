@@ -1,7 +1,7 @@
 # charity_recommender
 
 ### Business Description
-Recommend charity projects to donors that have already donated one time to cause then become multiple time donors. 
+Recommend charity projects to donors that have already donated one time - cause then become multiple time donors. 
 Method: email campaigns
 
 To date, 3 million people and partners have funded 1.1 million DonorsChoose.org projects. But teachers still spend more than a billion dollars of their own money on classroom materials. 
