@@ -11,7 +11,7 @@ In the second Kaggle Data Science for Good challenge, DonorsChoose.org, in partn
 To support this challenge, DonorsChoose.org has supplied anonymized data on donor giving from the past five years. The winning methods will be implemented in DonorsChoose.org email marketing campaigns.
 
 # Business Objective:
-Pair up donors to the classroom requests that will most motivate them to make an additional gift. Donors must have donated at least once. 
+Pair donors to the classroom requests that will most motivate them to make an additional gift. Donors must have donated at least once. 
 
 ### NY Charity Recommender
 A donor chooses a classroom project they would like to donate to from a list of projects. After selecting the project they would donate to, this charity_recommender program uses collaborative filtering to recommend 10 projects the user may also want to donate to. 
