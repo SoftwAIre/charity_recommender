@@ -37,7 +37,8 @@ The advantage to localizing the donations dataset to New York City is addressing
 
 ![](https://github.com/Chris-Manna/charity_recommender/blob/master/donors%20hist.png)
 
-The graph is limited on the X axis to $1000 to visually show the amount the distribution. It is positively skewed past $1,000,000.
+The graph is limited on the X axis to $1000 to show there is a distribution. 
+The graph is positively skewed past $1,000,000.
 
 ### Measuring Donor Enthusiasm for Projects
 In this section I show donation amount from donors on a logarithmic scale. See graph below:
@@ -48,7 +49,8 @@ In the future I will need to substitute the logarithmic values for dollar values
 For Frequency: The dataset contains many individual donors that donated one time, while it also contains donors that have donated once per month over a multi-year span. Many individual donors donated $1 while others donated in the tens of thousands, and in some instances, millions of dollars over time. While scaling these values in each dimension would be possible, the data collected may likely have skewed the results towards those that are already being donated to frequently and with higher donation quantity. 
 
 ##### Instead of scaling donation frequency and quantity
-I interpreted each donor's choice to donate any amount and any number of times to a single project as a binary value. If a user had donated any amount, and any amount of times to a project  it would be converted to a 1 or a 0. By converting the donation values to binary, it meant this dataset had become an implicit feedback dataset. 
+Each donor's choice to donate any amount and any number of times to a single project is covered to a single binary value. 
+If a user had donated any amount, and any amount of times to a project it would be converted to a 1 or a 0. By converting the donation values to binary, it meant this dataset had become an implicit feedback dataset. 
 
 ### Comparing Similarity Matrices on an Implicit Dataset
 In this section I applied the SurPRISE library to compare each donors contribution history. The SurPRISE library uses the DonorID in the first column, ProjectID in the second column, and the implicit donation history in third column. By matching the Donor ID's and Project ID's and the donation history, SurPRISE creates similarity matrix full of binary values. With this matrix we can calculate their given donation history as a "distance" from another user's donation history. 
