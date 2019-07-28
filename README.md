@@ -8,7 +8,7 @@ To date, 3 million people and partners have funded 1.1 million DonorsChoose.org 
 In the second Kaggle Data Science for Good challenge, DonorsChoose.org invites the Kaggle community to help them pair up donors to the classroom requests that will most motivate donors to make an additional gift. 
 Method: To support this challenge, DonorsChoose.org has supplied anonymized data on donor giving from the past five years. The winning methods will be implemented in DonorsChoose.org email marketing campaigns.
 
-### NY Charity Recommender
+### NYC Charity Recommender
 A donor chooses a classroom project they would like to donate to from a list of projects. After selecting the project they would donate to, this charity_recommender program uses collaborative filtering to recommend 10 projects the user may also want to donate to. 
 
 ## Data Acquisition:
@@ -43,7 +43,7 @@ The graph is limited on the X axis to $1,000 to show there is a distribution.
 The graph is positively skewed past $1,000,000.
 
 ### Measuring Donor Enthusiasm for Projects
-In this section I show donation amount from donors on a logarithmic scale. See graph below:
+Donation amount is shown on a logarithmic scale. See graph below:
 
 ![](https://github.com/Chris-Manna/charity_recommender/blob/master/log%20donation.png)
 In the future I will need to substitute the logarithmic values for dollar values. 
