@@ -8,7 +8,7 @@ To date, 3 million people and partners have funded 1.1 million DonorsChoose.org 
 In the second Kaggle Data Science for Good challenge, DonorsChoose.org invites the Kaggle community to help them pair up donors to the classroom requests that will most motivate donors to make an additional gift. 
 To support this challenge, DonorsChoose.org has supplied anonymized data on donor giving from the past five years. The winning methods will be implemented in DonorsChoose.org email marketing campaigns.
 
-### NYC Charity Recommender
+### NYC Charity Recommender Objective:
 A donor has a chance to choose a classroom project they would like to donate to from a list of projects. After selecting the project they would donate to, charity_recommender uses collaborative filtering to recommend 10 new projects the user may also want to donate to. 
 
 ## Data Acquisition:
