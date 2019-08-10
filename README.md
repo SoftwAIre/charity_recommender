@@ -54,7 +54,7 @@ If a user had donated any amount, and any amount of times to a project it would 
 ### Comparing Similarity Matrices on an Implicit Dataset
 In this section I applied the SurPRISE library to compare each donors contribution history. The SurPRISE library uses the DonorID in the first column, ProjectID in the second column, and the implicit donation history in third column. By matching the Donor ID's and Project ID's and the donation history, SurPRISE creates similarity matrix full of binary values. With this matrix we can calculate their given donation history as a "distance" from another user's donation history. 
 
-## Modeling and Evaluation
+## Modeling
 ##### The intution behind using a collaborative filtering recommender system on an implicit dataset
 ![](http://datameetsmedia.com/wp-content/uploads/2018/05/2ebah6c-1.png)
 http://datameetsmedia.com/an-overview-of-recommendation-systems/
@@ -66,6 +66,9 @@ Through a process called collaborative filtering, we can begin to project a poss
 With collaborative filtering recommender systems A's preference matrix may match many other user preference matrices and we will want to offer A an array of options, called recommendations. 
 
 By comparing the distance between donors A's donation history to donor B's donation history, we can fill the donor A's donation history in with B's donation history. Using B's filled out donor history as a reference for possible projects subsequent donations may be on a list of recommendations.  For example, if A and B both choose to eat pizza and ride a bike, then chances are if B likes sports drinks that A will also like sports drinks, so why not recommend A sports drinks as well? 
+
+# Evaluation
+
 
 ## Deploy
 ##### In the real world
