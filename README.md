@@ -68,7 +68,7 @@ With collaborative filtering recommender systems A's preference matrix may match
 By comparing the distance between donors A's donation history to donor B's donation history, we can fill the donor A's donation history in with B's donation history. Using B's filled out donor history as a reference for possible projects subsequent donations may be on a list of recommendations.  For example, if A and B both choose to eat pizza and ride a bike, then chances are if B likes sports drinks that A will also like sports drinks, so why not recommend A sports drinks as well? 
 
 # Evaluation
-
+In order to evaluate this project, I would need to have a baseline to check it against - deploy it. 
 
 ## Deploy
 ##### In the real world
