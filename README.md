@@ -40,7 +40,7 @@ The advantage to localizing the donations dataset to New York City is addressing
 The graph is limited on the X axis to $1,000 to show there is a distribution. The graph is positively skewed past $1,000,000.
 
 ### Measuring Donor Enthusiasm for Projects
-Donation amount is shown on a logarithmic scale. See graph below:
+Here the donation amount is represented on a logarithmic scale. See graph below:
 
 ![](https://github.com/Chris-Manna/charity_recommender/blob/master/log%20donation.png)
 In the future I will need to substitute the logarithmic values for dollar values. 
