@@ -6,7 +6,7 @@ Pair donors to the classroom requests that will most motivate them to make an ad
 Context:
 To date, three million people and partners have funded 1.1 million DonorsChoose.org projects. Teachers spend more than a billion dollars of their own money on classroom materials.
 In the second Kaggle Data Science for Good challenge, DonorsChoose.org invites the Kaggle community to help them pair up donors to the classroom requests that will most motivate donors to make an additional gift. 
-To support this challenge, DonorsChoose.org has supplied anonymized data on donor giving from the past five years. The winning methods will be implemented in DonorsChoose.org email marketing campaigns.
+To support this challenge, DonorsChoose.org has supplied anonymized data on donations from the past five years. The winning methods will be implemented in DonorsChoose.org email marketing campaigns.
 
 ### NYC Charity Recommender Objective:
 A donor chooses a classroom project they would like to donate to from a list of projects. After selecting the project they would donate to, charity_recommender uses collaborative filtering to recommend 10 new projects the user may also want to donate to. 
