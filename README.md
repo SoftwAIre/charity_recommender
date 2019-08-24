@@ -47,7 +47,7 @@ In the future I will need to substitute the logarithmic values for dollar values
 
 For Frequency: The dataset contains many individual donors that donated one time, while it contains donors that have donated once per month over a multi-year span. Many individual donors donated $1 while others donated millions of dollars over time. While scaling these values in each dimension would be possible, the data collected may likely have skewed the results towards those that are already being donated to frequently and with higher donation quantity. 
 
-Instead of scaling donation frequency and quantity each donor's choice to donate any amount and any number of times to a single project is converted to a binary value. 
+Instead of scaling donation frequency and quantity each donatation is represented as any amount and any number of times to a single project is converted to a binary value. 
 If a user had donated any amount, and any amount of times to a project it would be converted to a 1 or a 0. By converting the donation values to binary, it meant this dataset had become an implicit feedback dataset. 
 
 ### Comparing Similarity Matrices on an Implicit Dataset
