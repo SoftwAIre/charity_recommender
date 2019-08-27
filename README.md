@@ -1,7 +1,7 @@
 # charity_recommender
 
 ## Business Objective:
-Pair donors to the classroom requests that will most motivate them to make an additional gift. Donors must have donated at least once. 
+Pair donors to classroom requests that will most motivate them to make an additional gift. Donors must have donated at least once. 
 
 Context:
 To date, three million people and partners have funded 1.1 million DonorsChoose.org projects. Teachers spend more than a billion dollars of their own money on classroom materials.
