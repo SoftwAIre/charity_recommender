@@ -43,7 +43,7 @@ The graph is limited on the X axis to $1,000 to show there is a distribution. Th
 Here the donation amount is represented on a logarithmic scale. See graph below:
 
 ![](https://github.com/Chris-Manna/charity_recommender/blob/master/log%20donation.png)
-In the future I will need to substitute the logarithmic values for dollar values. 
+In the future I will substitute the logarithmic values for dollar values. 
 
 For Frequency: The dataset contains many individual donors that donated one time, while it contains donors that have donated once per month over a multi-year span. Many individual donors donated $1 while others donated millions of dollars over time. While scaling these values in each dimension would be possible, the data collected may likely have skewed the results towards those that are already being donated to frequently and with higher donation quantity. 
 
