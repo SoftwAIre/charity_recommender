@@ -24,7 +24,7 @@ Libraries: SurPRISE
 New York City has donated most frequently. 
 The advantage of localizing the donations dataset to New York City is addressing the coldstart when using collaborative filter recommender system is that most people donating choose to donate to projects they think they know about or are local. By trimming it to a major local area like New York City, this collaborative recommender system focuses on donors in New York City and the donations a New Yorker might want to donate to. More effectively deliver recommendations to donors located in the same area.
 
-##### addressing cold start for recommender systems
+##### Addressing cold start for recommender systems
 + Localize USA dataset to New York City
 + Total Amount Received over a 5 year period: $8,015,266.39
 + 76,257 donations Donations Received from NYC
@@ -84,7 +84,7 @@ Used GridSearchCV on Matrix Factorization techniques to calculate error rates. I
 
 ![](https://github.com/Chris-Manna/charity_recommender/blob/master/Boxplot%20MAE.png)
 
-We did not use the CoClustering or Normal Predictor. Because the matrix was so sparse, and the CoClustering Algorithm works best by comparing a more heavily populated matrix, the resulting recommendation error metrics didn't make sense. Because the implicit dataset is not normally distributed, the NormalPredictor algo didn't work well here either.
+We did not use the CoClustering or Normal Predictor. Because the matrix was so sparse, and the CoClustering Algorithm works best by comparing a more heavily populated matrix, the resulting recommendation error metrics didn't make sense. Because the implicit dataset is not normally distributed, the NormalPredictor achieved lower scores here.
 
 Error metrics don't quite work when using recommender systems because error metrics are used for predictions. Recommendations, are not exactly predictions. When you give someone a list of recommendations and they choose one of them, it does not necessarily mean they didn't like the other ones. They may like them all the same amount, they may not see the item or project they would have most wanted to donate to. The challenge in interpreting error metrics comes where the algorithms are predicting based on history to project into the future what a person may like, but without many more datapoints and feedback, a recommendation list will have to be tested in live trials. 
 
