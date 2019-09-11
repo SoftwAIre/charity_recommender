@@ -1,7 +1,7 @@
 # charity_recommender
 
 Context:
-So far, three million people and partners have funded 1.1 million DonorsChoose.org projects. Teachers spend more than a billion dollars of their own money on classroom materials.
+Three million people and partners have funded 1.1 million DonorsChoose.org projects. Teachers spend more than a billion dollars of their own money on classroom materials.
 Kaggle Data Science for Good challenge, DonorsChoose.org invites Data Scientists to help them pair donors to the classroom requests that will most motivate donors to make an additional gift. 
 To support this challenge, DonorsChoose.org has supplied anonymized data on donations from the past five years. The winning methods will be implemented in DonorsChoose.org email marketing campaigns.
 
