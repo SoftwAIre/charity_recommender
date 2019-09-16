@@ -1,8 +1,10 @@
 # charity_recommender
 
-Three million people and partners have funded 1.1 million DonorsChoose.org projects. Teachers spend more than a billion dollars of their own money on classroom materials.
-Kaggle Data Science for Good challenge, DonorsChoose.org invites Data Scientists to help them pair donors to the classroom requests that will most motivate donors to make an additional gift. 
-To support this challenge, DonorsChoose.org has supplied anonymized data on donations from the past five years. The winning methods will be implemented in DonorsChoose.org email marketing campaigns.
+- Three million people and partners have funded 1.1 million DonorsChoose.org projects. 
+- Teachers spend more than a billion dollars of their own money on classroom materials.
+- Kaggle Data Science for Good challenge, DonorsChoose.org invites Data Scientists to help them pair donors to the classroom requests that will most motivate donors to make an additional gift. 
+- DonorsChoose.org has supplied anonymized data on donations from the past five years. 
+- The winning methods will be implemented in DonorsChoose.org email marketing campaigns.
 
 ### NYC Charity Recommender Objective:
 A donor chooses a classroom project they would like to donate to from a list of projects. After selecting their first project, charity_recommender uses collaborative filtering to recommend 10 new projects the user may also want to donate to. The results would be used in an email marketing campaign. 
