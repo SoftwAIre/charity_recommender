@@ -7,7 +7,9 @@
 - The winning methods will be implemented in DonorsChoose.org email marketing campaigns.
 
 ### NYC Charity Recommender Objective:
-A donor chooses a classroom project they would like to donate to from a list of projects. After selecting their first project, charity_recommender uses collaborative filtering to recommend 10 new projects the user may also want to donate to. The results would be used in an email marketing campaign. 
+- A donor chooses a classroom project they would like to donate to from a list of projects. 
+- After selecting their first project, charity_recommender uses collaborative filtering to recommend 10 new projects the user may also want to donate to. 
+- The resulting program will be used in an email marketing campaign. 
 
 ## Business Objective:
 Pair donors to classroom requests that will most motivate them to make an additional gift.
