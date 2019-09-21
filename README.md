@@ -24,15 +24,15 @@ Libraries: SurPRISE
 # Data Preparation
 
 ##### Address cold start for recommender systems
-+ Localize USA dataset to New York City
-+ Total Donation Amount Received over a 5 year period: $8,015,266.39
-+ 76,257 donations Donations Received from NYC
-+ 26,009 Donors
-+ Most Recent Date Donation Received: 2018-05-09
-+ Earliest Date Donation Received: 2012-10-27
-+ The most common donor donated 2,152 times
-+ Max Single Donation: $19,588.38
-+ Min Single Donation: $0.21
+- Localize USA dataset to New York City
+- Total Donation Amount Received over a 5 year period: $8,015,266.39
+- 76,257 donations Donations Received from NYC
+- 26,009 Donors
+- Most Recent Date Donation Received: 2018-05-09
+- Earliest Date Donation Received: 2012-10-27
+- The most common donor donated 2,152 times
+-  Max Single Donation: $19,588.38
+- Min Single Donation: $0.21
 
 *Which city donated the most?
 New York City has donated most frequently. 
