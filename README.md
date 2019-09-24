@@ -28,7 +28,7 @@ Libraries: SurPRISE
 - Total Donation Amount Received over a 5 year period: $8,015,266.39
 - 76,257 donations Donations Received from NYC
 - 26,009 Donors
-- Most Recent Date Donation Received: 2018-05-09
+- Most Recent Donation Received Date: 2018-05-09
 - Earliest Date Donation Received: 2012-10-27
 - The most common donor donated 2,152 times
 -  Max Single Donation: $19,588.38
