@@ -31,11 +31,11 @@ Libraries: SurPRISE
 - Most Recent Donation Received Date: 2018-05-09
 - Earliest Date Donation Received: 2012-10-27
 - The most common donor donated 2,152 times
--  Max Single Donation: $19,588.38
+- Max Single Donation: $19,588.38
 - Min Single Donation: $0.21
 
 *Which city donated the most?
-New York City has donated most frequently. 
+- New York City has donated most frequently. 
 
 Why localize the dataset to NYC?
 The advantage of localizing the donations dataset to New York City is addressing the coldstart when using collaborative filter recommender system is that most people donating choose to donate to projects they think they know about or are local. By trimming it to a major local area like New York City, this collaborative recommender system focuses on donors in New York City and the donations a New Yorker might want to donate to. More effectively deliver recommendations to donors located in the same area.
