@@ -41,8 +41,8 @@ Why localize the dataset to NYC?
 
 ![](https://github.com/Chris-Manna/charity_recommender/blob/master/donors%20hist.png)
 
-Limited the X axis to $1,000 to show there is a distribution. 
-The graph is positively skewed past $1,000,000.
+- Limit the X axis to $1,000 to show there is a distribution. 
+- Data is positively skewed past $1,000,000.
 
 ### Measuring Donor Enthusiasm for Projects
 Here the donation amount is represented on a logarithmic scale to see visually a little better. See graph below:
