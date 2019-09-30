@@ -56,9 +56,9 @@ Instead of scaling donation frequency and quantity, each donatation is represent
 If a user had donated any amount, and any amount of times to a project it would be converted to a 1 or a 0. By converting the donation values to binary, it meant this dataset had become an implicit feedback dataset. 
 
 ### Comparing Similarity Matrices on an Implicit Dataset
-Apply the SurPRISE library to compare each donors contribution history. 
-The SurPRISE library uses the DonorID in the first column, ProjectID in the second column, and the implicit donation history in third column. 
-By matching the Donor ID's and Project ID's and the donation history, SurPRISE creates a similarity matrix full of binary values. With this matrix we can calculate their given donation history as a "distance" from another user's donation history. 
+- Apply the SurPRISE library to compare each donors contribution history. 
+- The SurPRISE library uses the DonorID in the first column, ProjectID in the second column, and the implicit donation history in third column. 
+- By matching the Donor ID's and Project ID's and the donation history, SurPRISE creates a similarity matrix full of binary values. With this matrix we can calculate their given donation history as a "distance" from another user's donation history. 
 
 ## Modeling
 ##### The intution behind using a collaborative filtering recommender system on an implicit dataset
