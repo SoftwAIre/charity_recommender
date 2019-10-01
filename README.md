@@ -45,7 +45,7 @@ Why localize the dataset to NYC?
 - Data is positively skewed past $1,000,000.
 
 ### Measuring Donor Enthusiasm for Projects
-Here the donation amount is represented on a logarithmic scale to see visually a little better. See graph below:
+- Donation amount is represented on a logarithmic scale to see visually a little better:
 
 ![](https://github.com/Chris-Manna/charity_recommender/blob/master/log%20donation.png)
 In the future I will substitute the logarithmic values for dollar values. 
