@@ -51,7 +51,7 @@ Why localize the dataset to NYC?
 In the future I will substitute the logarithmic values for dollar values. 
 
 For Frequency: 
-- The dataset contains donors that donated one time, while it contains donors that have donated once per month over a multi-year span. 
+- Donation amount: The dataset contains donors that donated one time, and donors that have donated once per month over a multi-year span. 
 - Many individual donors donated $1 while others donated millions of dollars over time. 
 - While scaling these values in each dimension would be possible, the data collected may likely have skewed the results towards those that are already being donated to frequently and with higher donation quantity. 
 
