@@ -69,7 +69,7 @@ For Frequency:
 http://datameetsmedia.com/an-overview-of-recommendation-systems/
 
 When donor A and donor B have the exact same donation history, we can say that the distance between these two matrices is 0. 
-If B suddenly develops a preference for something new, A may also develop a preference for that new item as well. 
+If B develops a preference for something new, A may also develop a preference for that new item as well. 
 When B likes something new we are using the similarity matrix comparison to guess that A will also like the new item. 
 Through a process called collaborative filtering, we can begin to project a possible pattern of donations in the future for donors that have not yet donated by comparing their history to another user's history. 
 With collaborative filtering recommender systems A's preference matrix may match many other user preference matrices and we will want to offer A an array of options, called recommendations. 
