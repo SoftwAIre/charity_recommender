@@ -86,7 +86,10 @@ Donor preferences do not always match exactly and so instead we want to use thei
 In this project, five algorithms were used to test which recommendations would best suit the donor based on implicit donation history comparing to other donors. 
 These five algorithms use the Grid Search Cross Validation (GridSearchCV) to compare Mean Absolute Error and Root Mean Squared Error between which yields the best error metrics and time to compute recommendations. 
 
-Using the three algorithms with best results are listed here: Singular Value Decomposition for Implicit Feedback (SVD++), Singular Value Decomposition (SVD), and Non-Negative Matrix Factorization (NNMF). 
+Using the three algorithms with best results are listed here: 
+- Singular Value Decomposition for Implicit Feedback (SVD++)
+- Singular Value Decomposition (SVD)
+- Non-Negative Matrix Factorization (NNMF). 
 
 Used GridSearchCV on Matrix Factorization techniques to calculate error rates. It turns out SVD++ has the lowest Mean Absolute error rate. A boxplot visualization is below: 
 
