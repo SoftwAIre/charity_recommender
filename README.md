@@ -11,7 +11,7 @@ A Kaggle Data Science for Good challenge
 - Pair donors to classroom requests that will most motivate them to make an additional gift.
 
 Summary: 
-- Donor chooses a classroom project they would like to donate to from a list of projects. 
+- the user/Donor chooses a classroom project they would like to donate to from a list of projects. 
 - charity_recommender uses collaborative filtering to recommend 10 new projects. 
 
 ## Data Acquisition:
