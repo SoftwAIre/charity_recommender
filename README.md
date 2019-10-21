@@ -96,7 +96,8 @@ Used GridSearchCV on Matrix Factorization techniques to calculate error rates. I
 
 ![](https://github.com/Chris-Manna/charity_recommender/blob/master/Boxplot%20MAE.png)
 
-We did not use the CoClustering or Normal Predictor. Because the matrix was so sparse, and the CoClustering Algorithm works best by comparing a more heavily populated matrix, the resulting recommendation error metrics didn't make sense. Because the implicit dataset is not normally distributed, the NormalPredictor achieved lower scores here.
+The matrix was sparse, did not use the CoClustering or Normal Predictor. 
+The CoClustering Algorithm works best by comparing a more heavily populated matrix, the resulting recommendation error metrics didn't make sense. Because the implicit dataset is not normally distributed, the NormalPredictor achieved lower scores here.
 
 Error metrics don't quite work when using recommender systems because error metrics are used for predictions. When you give someone a list of recommendations and they choose one of them, it does not necessarily mean they didn't like the other ones. They may like them all the same amount, they may not see the item or project they would have most wanted to donate to. The challenge in interpreting error metrics comes where the algorithms are predicting based on history to project into the future what a person may like, but without many more datapoints and feedback, a recommendation list will have to be tested in live trials. 
 
