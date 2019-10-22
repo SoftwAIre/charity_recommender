@@ -78,7 +78,7 @@ http://datameetsmedia.com/an-overview-of-recommendation-systems/
 By comparing the distance between donors donation history to others, we can assume from other similar the donor donation histories that they may want to donate to a charity that someone with a similar donation history has donated to. Using B's filled out donor history as a reference for possible projects subsequent donations may be on a list of recommendations.  For example, if A and B both choose to eat pizza and ride a bike, then chances are if B likes sports drinks that A will also like sports drinks, so why not recommend A sports drinks as well? 
 
 # Evaluation
-In order to evaluate this project, I would need to have a baseline to check it against - deploy it. 
+In order to evaluate this project, it needs to be deployed. 
 
 ## Deploy
 ##### In the real world
