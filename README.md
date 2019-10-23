@@ -56,7 +56,7 @@ For Frequency:
 - Many individual donors donated $1 while others donated millions of dollars over time. 
 - While scaling these values in each dimension would be possible, the data collected may likely have skewed the results towards those that are already being donated to frequently and with higher donation quantity. 
 
-- Each donatation is represented as any amount and any number of times to a single project is represented as a binary value. 
+- Each donatation is represented as any amount and any number of times to a single project as a binary value. 
 - If a user had donated any amount, and any amount of times to a project it is recorded as a binary value. By converting the donation values to binary, it meant this dataset had become an implicit feedback dataset. 
 
 ### Comparing Similarity Matrices on an Implicit Dataset
