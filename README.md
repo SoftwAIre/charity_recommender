@@ -26,7 +26,7 @@ Libraries: SurPRISE
 ##### Address cold start for recommender systems
 - Localize USA dataset to New York City
 - Total Donation Amount Received over a 5 year period: $8,015,266.39
-- 76,257 donations Donations Received from NYC
+- 76,257 Donations Received
 - 26,009 Donors
 - Earliest Date Donation Received: 2012-10-27
 - Most Recent Donation Received Date: 2018-05-09
