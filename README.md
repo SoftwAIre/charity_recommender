@@ -37,8 +37,8 @@ Libraries: SurPRISE
 *Which city donated the most?
 - NYC has donated most frequently. 
 
-Why localize the dataset to NYC?
-- Addressing the coldstart when using collaborative filter recommender system is that most people donating choose to donate to projects they think they know about or are local. By trimming it to a major local area like New York City, this collaborative recommender system focuses on donors in New York City and the donations a New Yorker might want to donate to. More effectively deliver recommendations to donors located in the same area.
+Why localize the dataset to NYC? Addressing the coldstart. 
+- When using collaborative filter recommender system is that most people donating choose to donate to projects they think they know about or are local. By trimming it to a major local area like New York City, this collaborative recommender system focuses on donors in New York City and the donations a New Yorker might want to donate to. More effectively deliver recommendations to donors located in the same area.
 
 ![](https://github.com/Chris-Manna/charity_recommender/blob/master/donors%20hist.png)
 
