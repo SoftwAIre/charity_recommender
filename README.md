@@ -2,8 +2,8 @@
 
 A Kaggle Data Science for Good challenge
 - Teachers spend more than a billion dollars of their own money on classroom materials.
-- DonorsChoose.org invites Data Scientists to pair donors to the classroom requests that will motivate donors to make an additional gift. 
-- DonorsChoose.org has supplied anonymized data on donations from the past five years. 
+- DonorsChoose.org invites Data Scientists to pair donors with classroom requests that will motivate an additional gift. 
+- Anonymized data on donations from the past five years is supplied. 
 - The winning methods will be implemented in DonorsChoose.org email marketing campaigns.
 
 ## NYC Charity Recommender Business Objective:
