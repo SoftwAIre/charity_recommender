@@ -49,7 +49,7 @@ Why localize the dataset to NYC? Addressing the coldstart.
 - Donation amount is represented on a logarithmic scale:
 
 ![](https://github.com/Chris-Manna/charity_recommender/blob/master/log%20donation.png)
-- In the future, I will substitute the logarithmic values for dollar values. 
+- In the future, the plan is to substitute the logarithmic values for dollar values. 
 
 Frequency: 
 - Donation amount: The dataset contains donors that donated one time, and donors that have donated once per month over a multi-year span. 
