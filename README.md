@@ -45,12 +45,6 @@ Why localize the dataset to NYC? Addressing the coldstart.
 - Limit the X axis to $1,000 to show there is a distribution. 
 - Data is positively skewed past $1,000,000.
 
-### Measuring Donor Enthusiasm for Projects
-- Donation amount is represented on a logarithmic scale:
-
-![](https://github.com/Chris-Manna/charity_recommender/blob/master/log%20donation.png)
-- In the future, the plan is to substitute the logarithmic values for dollar values. 
-
 Frequency: 
 - Donation amount: The dataset contains donors that donated one time, and donors that have donated once per month over a multi-year span. 
 - Many individual donors donated $1 while others donated millions of dollars over time. 
@@ -108,4 +102,5 @@ According to the Error metrics SVD++ yielded the best scores for error metrics r
 - Incorporating Meta Data from Donors and Projects to create a hybrid filter
 - Compare Content Filter Recommender System against a Collaborative Recommender System that has more meta data
 - Include a Time Series to see where donations are coming from, more expansive overview and EDA
+- Measuring Donor Enthusiasm for Projects on a logarithmic scale
 
