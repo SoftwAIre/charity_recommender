@@ -46,9 +46,7 @@ Frequency:
 - Donation amount: The dataset contains donors that donated one time, and donors that have donated once per month over a multi-year span. 
 - Many individual donors donated $1 while others donated millions of dollars over time. 
 - While scaling these values in each dimension would be possible, the data collected may likely have skewed the results towards those that are already being donated to frequently and with higher donation quantity. 
-
 - Each donatation is represented as any amount and any number of times to a single project as a binary value. 
-- If a user donated any amount, and any amount of times to a project it is recorded as a binary value. By converting the donation values to binary, it meant this dataset had become an implicit feedback dataset. 
 
 ### Comparing Similarity Matrices on an Implicit Dataset
 - Apply the SurPRISE library to compare each donors contribution history. 
