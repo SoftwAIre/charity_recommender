@@ -7,10 +7,8 @@ A Kaggle Data Science for Good challenge
 - The winning methods will be implemented in DonorsChoose.org email marketing campaigns.
 
 ## NYC Charity Recommender Business Objective:
-- Pair donors to classroom requests that will most motivate them to make an additional gift.
-
-Summary: 
-- the user/Donor chooses a classroom project they would like to donate to from a list of projects. 
+- Donor chooses a classroom project they would like to donate to from a list of projects. 
+- Pair donors to classroom requests that will most motivate them to make an additional gift. 
 - charity_recommender uses collaborative filtering to recommend 10 new projects.  
 
 ## Data Acquisition:
