@@ -79,7 +79,7 @@ Using the three algorithms with best results are listed here:
 - Singular Value Decomposition (SVD)
 - Non-Negative Matrix Factorization (NNMF). 
 
-Used GridSearchCV on Matrix Factorization techniques to calculate error rates. It turns out SVD++ has the lowest Mean Absolute error rate. A boxplot visualization is below: 
+Used GridSearchCV on Matrix Factorization techniques to calculate "distance maetrics". It turns out SVD++ has the lowest Mean Absolute error rate. A boxplot visualization is below: 
 
 ![](https://github.com/Chris-Manna/charity_recommender/blob/master/Boxplot%20MAE.png)
 
