@@ -42,7 +42,7 @@ Why localize the dataset to NYC? Addressing the coldstart.
 
 Frequency: 
 - Donation amount: The dataset contains donors that donated one time, and donors that have donated once per month over a multi-year span. 
-- Many individual donors donated $1 while others donated millions of dollars over time. 
+- Individual donors donated $1 while others donated millions of dollars over time. 
 - While scaling these values in each dimension would be possible, the data collected may likely have skewed the results towards those that are already being donated to frequently and with higher donation quantity. 
 - Each donatation is represented as any amount and any number of times to a single project as a binary value. 
 
