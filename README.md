@@ -71,7 +71,7 @@ In order to evaluate this project, it needs to be deployed.
 ##### In the real world
 Donor preferences do not always exactly, instead use their distances by measuring similarity. By applying the SurPRISE library we don't have to do all the Matrix Factorization mathematics that goes into generating the distances between donor preference matrices and instead return a list of projects they may choose to donate to. 
  
-In this project, five algorithms were used to test which recommendations would best suit the donor based on implicit donation history comparing to other donors. 
+In this project, five algorithms were used to test which recommendations would best suit the donor based on implicit donation history. 
 These five algorithms use the Grid Search Cross Validation (GridSearchCV) to compare Mean Absolute Error and Root Mean Squared Error between which yields the best error metrics and time to compute recommendations. 
 
 Using the three algorithms with best results are listed here: 
